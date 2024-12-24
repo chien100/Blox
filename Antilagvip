@@ -1,11 +1,11 @@
-local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/Chienmythic/MakeMenu/refs/heads/main/vtiosmake"))()
+local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/MakeMenu/refs/heads/main/vtiosmake"))()
  
 local PhantomForcesWindow = Library:NewWindow("Chienmythic")
  
 local KillingCheats = PhantomForcesWindow:NewSection("Main Antilag")
  
 KillingCheats:CreateButton("Antilag", function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Chienmythic/MakeMenu/refs/heads/main/mainv1.lua.txt"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/MakeMenu/refs/heads/main/mainv1.lua.txt"))()
 end)
  
 KillingCheats:CreateButton("Antilag", function()
